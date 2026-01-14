@@ -510,3 +510,92 @@ animation-delay: 15s;
 100% { opacity: 0; }
 }
 
+/* =========================
+Responsive - mobiles et tablettes
+========================= */
+@media (max-width: 1024px) {
+/* Réduire les titres dans le hero pour tablettes */
+.hero-content h1 {
+font-size: 4.5rem;
+letter-spacing: 10px;
+}
+.hero-content h2 {
+font-size: 1.2rem;
+letter-spacing: 6px;
+}
+.hero-search {
+max-width: 450px;
+}
+.hero-chameau {
+width: 250px;
+height: 80px;
+}
+}
+
+@media (max-width: 768px) {
+/* Navigation mobile */
+.nav-links {
+display: none; /* tu peux ajouter un menu hamburger plus tard */
+}
+
+/* Hero section mobile */
+.hero-content h1 {
+font-size: 3rem;
+letter-spacing: 6px;
+}
+.hero-content h2 {
+font-size: 1rem;
+letter-spacing: 4px;
+}
+.hero-search {
+flex-direction: column;
+gap: 0.5rem;
+max-width: 90%;
+}
+.hero-search input, .hero-search button {
+width: 100%;
+}
+.hero-chameau {
+width: 200px;
+height: 70px;
+}
+
+/* Sections grid mobile */
+.regions-grid, .featured-grid {
+grid-template-columns: 1fr;
+}
+
+/* Sections padding */
+.regions, .featured, .community {
+padding: 5rem 2rem;
+}
+
+/* Form mobile */
+.community-form {
+text-align: center;
+}
+.community-form button {
+width: 100%;
+}
+}
+
+@media (max-width: 480px) {
+/* Hero encore plus petit sur les très petits écrans */
+.hero-content h1 {
+font-size: 2.5rem;
+letter-spacing: 4px;
+}
+.hero-content h2 {
+font-size: 0.9rem;
+letter-spacing: 2px;
+}
+.hero-search {
+padding: 0.3rem;
+}
+.hero-chameau {
+width: 150px;
+height: 60px;
+}
+}
+
+
