@@ -1,0 +1,204 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DÉSERTS - Voyage · Safari · Trek · Excursion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+<div class="logo">DÉSERTS</div>
+<ul class="nav-links">
+<li><a href="#accueil">ACCUEIL</a></li>
+<li><a href="#explorer">EXPLORER</a></li>
+<li><a href="#equipement">ÉQUIPEMENT</a></li>
+<li><a href="#communaute">COMMUNAUTÉ</a></li>
+</ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="accueil">
+<div class="hero-bg-animation"></div>
+
+<div class="hero-slides">
+<div class="hero-slide slide1"></div>
+<div class="hero-slide slide2"></div>
+<div class="hero-slide slide3"></div>
+<div class="hero-slide slide4"></div>
+</div>
+
+<div class="hero-chameau"></div>
+<div class="hero-content">
+<h1>DÉSERTS</h1>
+<h2>VOYAGE · SAFARI · TREK · EXCURSION</h2>
+<div class="hero-search">
+<input type="text" placeholder="Rechercher un désert, une destination...">
+<button>EXPLORER</button>
+</div>
+</div>
+</section>
+
+<!-- Regions Section -->
+<section class="regions" id="explorer">
+<h2 class="section-title">Déserts du monde</h2>
+<div class="regions-grid">
+
+<div class="region-card fade-in">
+<img class="region-bg" src="images/europe.jpg" alt="Europe">
+<div class="region-content">
+<h3>Europe</h3>
+<p>Déserts et paysages arides</p>
+</div>
+</div>
+
+<div class="region-card fade-in" style="animation-delay: 0.1s;">
+<img class="region-bg" src="images/afrique.jpg" alt="Afrique">
+<div class="region-content">
+<h3>Afrique</h3>
+<p>Le Sahara et plus</p>
+</div>
+</div>
+
+<div class="region-card fade-in" style="animation-delay: 0.2s;">
+<img class="region-bg" src="images/amerique.jpg" alt="Amérique">
+<div class="region-content">
+<h3>Amérique</h3>
+<p>Déserts du nord au sud</p>
+</div>
+</div>
+
+<div class="region-card fade-in" style="animation-delay: 0.3s;">
+<img class="region-bg" src="images/gobi.jpg" alt="Asie">
+<div class="region-content">
+<h3>Asie</h3>
+<p>Déserts d'intérieur</p>
+</div>
+</div>
+
+<div class="region-card fade-in" style="animation-delay: 0.4s;">
+<img class="region-bg" src="images/orient.jpg" alt="Orient">
+<div class="region-content">
+<h3>Orient</h3>
+<p>Déserts historiques et culturels</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- Featured Deserts -->
+<section class="featured" id="equipement">
+<h2 class="section-title">Déserts incontournables</h2>
+<div class="featured-grid">
+<div class="desert-card fade-in">
+<img class="desert-image" src="images/namiib.jpg" alt="Désert de Namib">
+<div class="desert-info">
+<h3>Désert de Namib</h3>
+<div class="desert-location">Afrique · Namibie</div>
+<p class="desert-description">Le plus vieux désert du monde, célèbre pour ses dunes majestueuses</p>
+<a href="#" class="desert-link">En savoir plus →</a>
+</div>
+</div>
+<div class="desert-card fade-in" style="animation-delay: 0.1s;">
+<img class="desert-image" src="images/Svalbard.jpg" alt="Svalbard">
+<div class="desert-info">
+<h3>Le Svalbard</h3>
+<div class="desert-location">Arctique · Norvège</div>
+<p class="desert-description">Un désert polaire fascinant au cœur de l'océan Arctique.</p>
+<a href="#" class="desert-link">En savoir plus →</a>
+</div>
+</div>
+<div class="desert-card fade-in" style="animation-delay: 0.2s;">
+<img class="desert-image" src="images/Bardenas.jpg" alt="Bardenas">
+<div class="desert-info">
+<h3>Désert des Bardenas</h3>
+<div class="desert-location">Europe · Espagne</div>
+<p class="desert-description">Un paysage lunaire unique en Europe</p>
+<a href="#" class="desert-link">En savoir plus →</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Community Section with Form -->
+<section class="community" id="communaute">
+<h2 class="section-title">Rejoignez la communauté</h2>
+<p class="community-text">
+Partagez vos aventures, découvrez les récits d'autres explorateurs, et planifiez vos prochaines expéditions.
+</p>
+
+<form class="community-form" action="#" method="POST">
+<div class="form-group">
+<label for="nom">Nom</label>
+<input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+</div>
+<div class="form-group">
+<label for="prenom">Prénom</label>
+<input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="Votre email" required>
+</div>
+<div class="form-group">
+<label for="message">Votre aventure</label>
+<textarea id="message" name="message" placeholder="Racontez-nous votre expérience..." rows="5" required></textarea>
+</div>
+<button type="submit" class="cta-button">S'inscrire</button>
+</form>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="footer-content">
+<div class="footer-section">
+<h3>Explorer</h3>
+<ul>
+<li><a href="#">Carte des déserts</a></li>
+<li><a href="#">Voyages organisés</a></li>
+<li><a href="#">Récits d'explorateurs</a></li>
+<li><a href="#">Types de déserts</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Régions</h3>
+<ul>
+<li><a href="#">Déserts d'Afrique</a></li>
+<li><a href="#">Déserts d'Asie</a></li>
+<li><a href="#">Déserts d'Amérique</a></li>
+<li><a href="#">Déserts d'Europe</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Communauté</h3>
+<ul>
+<li><a href="#">Devenir explorateur</a></li>
+<li><a href="#">Les explorateurs</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Équipement</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Support</h3>
+<ul>
+<li><a href="#">Contact</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Mentions légales</a></li>
+<li><a href="#">Vie privée</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>©2026 World Désert by Ela - Tous droits réservés</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
