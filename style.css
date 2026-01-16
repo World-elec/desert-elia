@@ -123,9 +123,9 @@ animation: heroSlide 24s infinite;
 }
 
 .slide1 { background-image: url("images/safari.jpg"); animation-delay: 0s; }
-.slide2 { background-image: url("images/buggy.jpg"); animation-delay: 6s; }
-.slide3 { background-image: url("images/night.jpg"); animation-delay: 12s; }
-.slide4 { background-image: url("images/groupe.jpg"); animation-delay: 18s; }
+.slide2 { background-image: url("images/buggy.jpg"); animation-delay: 2s; }
+.slide3 { background-image: url("images/night.jpg"); animation-delay: 4s; }
+.slide4 { background-image: url("images/groupe.jpg"); animation-delay: 6s; }
 
 @keyframes heroSlide {
 0%,33% { opacity: 0; }
